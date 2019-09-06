@@ -4,7 +4,9 @@ using namespace std;
 
 int recursive2 (int x , int y){
     
-    if (y==x){
+    if (x<0){
+        cout<<"NO DIGITE NUMEROS NEGATIVOS"<<endl;
+    }else if (y==x){
         //cout<<x<<endl;
     } else {
         cout<<y<<endl;
@@ -15,7 +17,9 @@ int recursive2 (int x , int y){
 
 int recursive(int x){
     
-    if(x==1){
+     if (x<0){
+        cout<<"NO DIGITE NUMEROS NEGATIVOS"<<endl;
+    } else if (x==1){
         cout<<x<<endl;
     } else {
         cout<<x<<endl;
