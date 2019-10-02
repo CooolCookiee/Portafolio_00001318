@@ -1,0 +1,39 @@
+****Algoritmo 1:
+
+valid = true
+d = initialize
+push(d,.......
+
+if(empty){
+cout<<error<<endl;
+}
+
+pop(d)
+if(empty){
+cout<<error<<endl;
+}
+
+pop(d)
+if(empty){
+cout<<error<<endl;
+}
+
+i=pop(d)
+return i
+
+****Algoritmo 2:
+
+valid = true
+d = initialize
+push(d,.......
+
+if(empty){
+cout<<error<<endl;
+
+peek(d)
+if(empty){
+cout<<error<<endl;
+}
+i=peek(d)
+return i
+}
